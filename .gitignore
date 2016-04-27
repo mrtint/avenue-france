@@ -1,8 +1,4 @@
-/node_modules
-/dist
-/.tmp
-/.sass-cache
-/bower_components
-/.idea
-/test
-/scripts/config.js
+node_modules
+.idea
+/server/config/local.env.js
+npm-debug.log
