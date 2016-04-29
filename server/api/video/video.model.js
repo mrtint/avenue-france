@@ -4,9 +4,12 @@ var mongoose = require('mongoose'),
     Schema = mongoose.Schema;
 
 var VideoSchema = new Schema({
-  name: String,
-  info: String,
-  active: Boolean
+    resource_id: String,
+    title: String,
+    text: String,
+    register_date: Date,
+    update_date: Date,
+    use_flag: Boolean
 });
 
 module.exports = mongoose.model('Video', VideoSchema);
