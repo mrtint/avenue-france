@@ -4,15 +4,16 @@ var mongoose = require('mongoose'),
     Schema = mongoose.Schema;
 
 var VideoSchema = new Schema({
-    resource_id: String,
+    id: Number,
+    resourceId: String,
     title: String,
     text: String,
-    register_date: {type: Date, default: Date.now},
-    update_date: {type: Date},
-    use_flag: {type: Boolean, default: true},
-    comments: [Schema.Types.ObjectId],
-    likes: [Schema.Types.ObjectId],
-    dislikes: [Schema.Types.ObjectId]
+    registerDate: {type: Date, default: Date.now},
+    updateDate: {type: Date},
+    useFlag: {type: Boolean, default: true},
+    comments: [{type: Number, ref: 'Comment'}],
+    likes: [{type: Schema.Types.ObjectId, ref: 'Like'}],
+    reports: [{type: Schema.Types.ObjectId, ref: 'Report'}]
 });
 
 module.exports = mongoose.model('Video', VideoSchema);
