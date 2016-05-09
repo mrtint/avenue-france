@@ -1,13 +1,58 @@
 [
   {
-    "resource_id": "c7rCyll5AeY",
-    "title": "",
-    "text": "",
-    "register_date": "",
-    "update_date": "",
-    "use_flag": true,
-    "comments": [],
-    "likes": [],
-    "reports": []
+    "author": "(R)갈매기부산",
+    "hashedPassword": "test1234"
+  },
+  {
+    "author": "(R)Sir Alexander",
+    "hashedPassword": "test1234"
+  },
+  {
+    "author": "(R)CHING LING DA ZOEIRA",
+    "hashedPassword": "test1234"
+  },
+  {
+    "author": "(R)xena martinez",
+    "hashedPassword": "test1234"
+  },
+  {
+    "author": "(R)ana bravo",
+    "hashedPassword": "test1234"
+  },
+  {
+    "author": "(R)노가현",
+    "hashedPassword": "test1234"
+  },
+  {
+    "author": "(R)lXBlackWolfXl",
+    "hashedPassword": "test1234"
+  },
+  {
+    "author": "(R)장성욱",
+    "hashedPassword": "test1234"
+  },
+  {
+    "author": "(R)Jason Chan",
+    "hashedPassword": "test1234"
+  },
+  {
+    "author": "(R)Mark Tuan Yi Eun",
+    "hashedPassword": "test1234"
+  },
+  {
+    "author": "(R)Ramón Grajeda",
+    "hashedPassword": "test1234"
+  },
+  {
+    "author": "(R)SNSD EXO",
+    "hashedPassword": "test1234"
+  },
+  {
+    "author": "(R)Dulz Kim",
+    "hashedPassword": "test1234"
+  },
+  {
+    "author": "(R)이유민",
+    "hashedPassword": "test1234"
   }
 ]

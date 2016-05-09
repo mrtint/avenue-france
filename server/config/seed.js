@@ -12,29 +12,29 @@ var Report = require('../api/report/report.model');
 var Video = require('../api/video/video.model');
 
 // 모델별 샘플 데이터들
-var userSeed = require('../api/user/user.model');
-var commentSeed = require('../api/comment/comment.model');
-var likeSeed = require('../api/like/like.model');
-var reportSeed = require('../api/report/report.model');
-var videoSeed = require('../api/video/video.model');
+var userSeed = require('../api/user/user.seed');
+var commentSeed = require('../api/comment/comment.seed');
+var likeSeed = require('../api/like/like.seed');
+var reportSeed = require('../api/report/report.seed');
+var videoSeed = require('../api/video/video.seed');
 
 // 샘플 데이터 생성
 User.find({}).remove(function () {
-    Thing.create(userSeed);
+    User.create(userSeed);
 });
 
 Comment.find({}).remove(function () {
-    Thing.create(commentSeed);
+    Comment.create(commentSeed);
 });
 
 Like.find({}).remove(function () {
-    Thing.create(likeSeed);
+    Like.create(likeSeed);
 });
 
 Report.find({}).remove(function () {
-    Thing.create(reportSeed);
+    Report.create(reportSeed);
 });
 
 Video.find({}).remove(function () {
-    Thing.create(videoSeed);
+    Video.create(videoSeed);
 });

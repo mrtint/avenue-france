@@ -6,6 +6,7 @@ var mongoose = require('mongoose'),
 var VideoSchema = new Schema({
     id: Number,
     resourceId: String,
+    type: String,
     title: String,
     text: String,
     author: String,

@@ -1,10 +1,100 @@
 [
   {
-    "id": "c7rCyll5AeY",
-    "text": "",
-    "email": "mrtint0729@gmail.com",
+    "id": 1,
+    "text": "Last two hours for voting :) Cmon every onCe^^",
+    "author": "dramabeanslover",
+    "hashedPassword": "test1234",
+    "isUse": true,
+    "comments": [],
+    "likes": [],
+    "reports": []
+  },
+  {
+    "id": 2,
+    "text": "Sana's shy shy shy is really trend now xD﻿",
+    "author": "ddeulgi bear",
+    "hashedPassword": "test1234",
+    "isUse": true,
+    "comments": [],
+    "likes": [],
+    "reports": []
+  },
+  {
+    "id": 3,
+    "text": "MOMO IS JUST SO ABFWJHSBFGBDRKRJHERJE HAWT",
+    "author": "Riri Maengu (Ri)",
+    "hashedPassword": "test1234",
+    "isUse": true,
+    "comments": [],
+    "likes": [],
+    "reports": []
+  },
+  {
+    "id": 4,
+    "text": "我知道啊，但是這裡有各個國家的人，所以囯語不能明確指出哪一種語言。",
+    "author": "Alyold Bong",
+    "hashedPassword": "test1234",
+    "isUse": true,
+    "comments": [],
+    "likes": [],
+    "reports": []
+  },
+  {
+    "id": 5,
+    "text": "hve u heard the last fanchant of this song? the fucking army was there!!﻿",
+    "author": "carlos gutierrez",
+    "hashedPassword": "test1234",
+    "isUse": true,
+    "comments": [],
+    "likes": [],
+    "reports": []
+  },
+  {
+    "id": 6,
+    "text": "Seriously they are the best. All their songs are great and their concepts are so good. Sorry AOA you're not my favorite anymore",
+    "author": "RefinedAcne",
+    "hashedPassword": "test1234",
+    "isUse": true,
+    "comments": [],
+    "likes": [],
+    "reports": []
+  },
+  {
+    "id": 7,
+    "text": "진짜...  자야되는데 자야되는데 하다가 결국 다 보고 잠......이런 트둥이들같으니",
+    "author": "서윤설",
+    "hashedPassword": "test1234",
+    "isUse": true,
+    "comments": [],
+    "likes": [],
+    "reports": []
+  },
+  {
+    "id": 8,
+    "text": "They are the best girl band that I've ever seen. Cheer up!!!﻿",
+    "author": "morris jin",
     "hashed_password": "test1234",
-    "is_use": true,
+    "isUse": true,
+    "comments": [],
+    "likes": [],
+    "reports": []
+  },
+  {
+    "id": 9,
+    "text": "私は日本人です。しかもグループに3人も日本人がいたなんて…… 知った時はとても衝撃を受けました。",
+    "author": "MMS",
+    "hashedPassword": "test1234",
+    "isUse": true,
+    "comments": [],
+    "likes": [],
+    "reports": []
+  },
+  {
+    "id": 10,
+    "text": "MV21,505,369剛剛人氣歌謠一位第3座到手，分數104**twice懷挺！！😍😍😍﻿",
+    "author": "一碗滷肉飯",
+    "hashedPassword": "test1234",
+    "isUse": true,
     "comments": [],
     "likes": [],
     "reports": []
