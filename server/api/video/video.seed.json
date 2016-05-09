@@ -1,6 +1,5 @@
 [
   {
-    "id": 1,
     "resourceId": "c7rCyll5AeY",
     "type": "YOUTUBE",
     "title": "TWICE(트와이스) 'CHEER UP'' M/V",
@@ -10,7 +9,6 @@
     "isUse": true
   },
   {
-    "id": 2,
     "resourceId": "2KAl-b5RfOM",
     "type": "YOUTUBE",
     "title": "Tenacious D - Master Exploder (High Definition) Pick Of Destiny",
@@ -20,7 +18,6 @@
     "isUse": true
   },
   {
-    "id": 3,
     "resourceId": "AjzaaRDB_78",
     "type": "YOUTUBE",
     "title": "마지막 라운드 김태우 '사랑비' ♪ -[히든싱어3] 12회",
@@ -30,7 +27,6 @@
     "isUse": true
   },
   {
-    "id": 4,
     "resourceId": "Q6omsDyFNlk",
     "type": "YOUTUBE",
     "title": "Alizee - J'en Ai Marre (Tubes D'un Jour) HD",
@@ -40,7 +36,6 @@
     "isUse": true
   },
   {
-    "id": 5,
     "resourceId": "My2FRPA3Gf8",
     "type": "YOUTUBE",
     "title": "Miley Cyrus - Wrecking Ball",
@@ -50,7 +45,6 @@
     "isUse": true
   },
   {
-    "id": 6,
     "resourceId": "vHR4oOIcVZo",
     "type": "VIMEO",
     "title": "The Voice 2015 Blind Audition - Jordan Smith: Chandelier",
@@ -60,7 +54,6 @@
     "isUse": true
   },
   {
-    "id": 7,
     "resourceId": "x424jgp",
     "type": "DAILYMOTION",
     "title": "CheerUp+Interview @Simply K-pop 1080p",
@@ -70,7 +63,6 @@
     "isUse": true
   },
   {
-    "id": 8,
     "resourceId": "x48xauu",
     "type": "DAILYMOTION",
     "title": "Sleepy Dog Has A Sticky Tongue",
@@ -80,7 +72,6 @@
     "isUse": true
   },
   {
-    "id": 9,
     "resourceId": "165441527",
     "type": "VIMEO",
     "title": "Soccer Worship",
@@ -90,7 +81,6 @@
     "isUse": true
   },
   {
-    "id": 10,
     "resourceId": "165441527",
     "type": "VIMEO",
     "title": "Soccer Worship",
@@ -100,7 +90,6 @@
     "isUse": true
   },
   {
-    "id": 11,
     "resourceId": "165441527",
     "type": "VIMEO",
     "title": "Mike Higgins: League of Legends Animation Reel",

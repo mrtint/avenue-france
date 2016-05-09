@@ -1,10 +1,10 @@
 'use strict';
 
 var mongoose = require('mongoose'),
+    autoIncrement = require('mongoose-auto-increment'),
     Schema = mongoose.Schema;
 
 var VideoSchema = new Schema({
-    id: Number,
     resourceId: String,
     type: String,
     title: String,
@@ -19,5 +19,7 @@ var VideoSchema = new Schema({
     likes: [{type: Schema.Types.ObjectId, ref: 'Like'}],
     reports: [{type: Schema.Types.ObjectId, ref: 'Report'}]
 });
+
+VideoSchema.plugin(autoIncrement.plugin, 'Video');
 
 module.exports = mongoose.model('Video', VideoSchema);

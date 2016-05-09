@@ -5,18 +5,18 @@
 
 'use strict';
 // 모델 정보들
-var User = require('../api/user/user.model');
-var Comment = require('../api/comment/comment.model');
-var Like = require('../api/like/like.model');
-var Report = require('../api/report/report.model');
-var Video = require('../api/video/video.model');
+var User = require('../api/user/user.model'),
+    Comment = require('../api/comment/comment.model'),
+    Like = require('../api/like/like.model'),
+    Report = require('../api/report/report.model'),
+    Video = require('../api/video/video.model');
 
 // 모델별 샘플 데이터들
-var userSeed = require('../api/user/user.seed');
-var commentSeed = require('../api/comment/comment.seed');
-var likeSeed = require('../api/like/like.seed');
-var reportSeed = require('../api/report/report.seed');
-var videoSeed = require('../api/video/video.seed');
+var userSeed = require('../api/user/user.seed'),
+    commentSeed = require('../api/comment/comment.seed'),
+    likeSeed = require('../api/like/like.seed'),
+    reportSeed = require('../api/report/report.seed'),
+    videoSeed = require('../api/video/video.seed');
 
 // 샘플 데이터 생성
 User.find({}).remove(function () {

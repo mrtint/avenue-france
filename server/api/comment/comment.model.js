@@ -1,10 +1,10 @@
 'use strict';
 
 var mongoose = require('mongoose'),
+    autoIncrement = require('mongoose-auto-increment'),
     Schema = mongoose.Schema;
 
 var CommentSchema = new Schema({
-    id: Number,
     text: String,
     author: String,
     hashedPassword: String,
@@ -15,5 +15,7 @@ var CommentSchema = new Schema({
     likes: [{type: Schema.Types.ObjectId, ref: 'Like'}],
     reports: [{type: Schema.Types.ObjectId, ref: 'Report'}]
 });
+
+CommentSchema.plugin(autoIncrement.plugin, 'Comment');
 
 module.exports = mongoose.model('Comment', CommentSchema);
