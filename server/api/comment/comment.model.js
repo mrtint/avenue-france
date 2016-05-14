@@ -12,8 +12,8 @@ var CommentSchema = new Schema({
     registerDate: {type: Date, default: Date.now},
     updateDate: {type: Date},
     isUse: {type: Boolean, default: true},
-    likes: [{type: Schema.Types.ObjectId, ref: 'Like'}],
-    reports: [{type: Schema.Types.ObjectId, ref: 'Report'}]
+    likes: [{type: Number, ref: 'Like'}],
+    reports: [{type: Number, ref: 'Report'}]
 });
 
 CommentSchema.plugin(autoIncrement.plugin, 'Comment');

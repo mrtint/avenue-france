@@ -16,8 +16,8 @@ var VideoSchema = new Schema({
     updateDate: {type: Date},
     isUse: {type: Boolean, default: true},
     comments: [{type: Number, ref: 'Comment'}],
-    likes: [{type: Schema.Types.ObjectId, ref: 'Like'}],
-    reports: [{type: Schema.Types.ObjectId, ref: 'Report'}]
+    likes: [{type: Number, ref: 'Like'}],
+    reports: [{type: Number, ref: 'Report'}]
 });
 
 VideoSchema.plugin(autoIncrement.plugin, 'Video');
